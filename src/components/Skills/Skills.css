@@ -171,3 +171,65 @@
 @media only screen and (device-width: 768px) {
 
 }
+@media only screen and (device-width: 768px) {
+
+}
+
+.skills {
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
+.skillsHeader {
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    font-family: var(--primaryFont);
+
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section:not(:first-child) {
+    border-top: 1px solid var(--primary-color);
+    padding-top: 20px;
+    margin-top: 20px;
+}
+h2 {
+    margin: 5px; /* Increase distance below heading */
+    font-family: var(--primaryFont);;
+}
+.button-row {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    background-color: #545fc44d;
+    color: var(--primary-color);
+    border: 0.001px solid white; 
+    border-radius: 25px; /* Make the edges round */
+    padding: 15px; /* Increase padding */
+    box-shadow: 0px 0px 30px var(--primary-color-30);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* Make the text bold */
+    font-family: var(--primaryFont);
+    font-size: 1.05rem;
+}
+
+button:hover {
+    /* background-color: var(--primary-color); */
+    /* color: var(--secondary-color); */
+}

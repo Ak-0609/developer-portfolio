@@ -5,7 +5,7 @@ export const achievementData = {
             id : 1,
             title : '•	India Drug Index',
             // details : 'Marketing Foundations certification have a fundamental understanding of skills required to effectively operate programmatic advertising campaigns.',
-            date : 'Oct 23, 2023',
+            date : 'Jan - Dec 2017',
             field : 'Health',
             image : 'https://play-lh.googleusercontent.com/dGiDt86JvKlsAHZnbym94_S2VB73y3P4XKz0npzS9TEfkv6jV1eq45YipuEYR8IKL38=w480-h960-rw'
         },
